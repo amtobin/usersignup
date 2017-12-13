@@ -79,6 +79,4 @@ def valid_input():
 
     return render_template('user_form.html', username_error=username_error, password_error=password_error, verify_pw_error=verify_pw_error, email_error=email_error)
 
-
-
 app.run()
